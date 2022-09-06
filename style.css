@@ -1,0 +1,586 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+h5:hover {
+    border-bottom:2px solid #ffbd39;
+    color: orange;
+    transition: all 0.3s;
+}
+
+.hometext {
+    position: absolute;
+    margin: -453px 0px 0px 90px;
+    z-index: 1;
+    /* background: red; */
+    /*text-size: 40px;8*/
+}
+
+.hometext>button {
+    border: 1px solid white;
+    border-radius: 35px;
+    padding: 15px;
+}
+
+.hometext>button:hover {
+    background-color: orange;
+}
+
+.hometext>h1 {
+    font-weight: 800;
+    font-size: 70px;
+    color: rgba(255, 255, 255, 1);
+}
+.hometext>h4 {
+    color: rgba(255, 255, 255, 1);
+}
+.hometext>h2 {
+    font-weight: 800;
+    font-size: 70px;
+    color: #ffbd39;
+}
+
+.aboutme {
+    display: flex;
+}
+
+.about {
+    margin: 138px 0px 0px 104px;
+}
+
+.about>h1 {
+    font-size: 50px;
+    font-weight: 700;
+    z-index: 1;
+    color: rgba(255, 255, 255, 1);
+}
+
+.about>h2 {
+    font-size: 7vw;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.2);
+}
+.about>h4 {
+    color: rgba(255, 255, 255, 1);
+}
+
+.about>pre {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 1);
+}
+
+.about>p {
+    color: rgba(255, 255, 255, 1);
+}
+.aboutmee{position: absolute;
+     line-height: 1.5px;right: 0;
+     left: 640px;
+}
+.about>button {
+    border: 1px solid white;
+    border-radius: 35px;
+    padding: 15px;
+}
+
+.about>button:hover {
+    background-color: orange;
+}
+
+.resume {
+    text-align: center;
+}
+
+.resume>h2 {
+    font-size: 7vw;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.1);
+}
+
+.resume>h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+.resume>p {
+    color: rgba(255, 255, 255, 0.6);
+}
+.resumemap {
+    width: 89%;
+    margin-left: 50px;
+    background: rgba(255, 255, 255, 0);
+}
+
+.tom {
+    font-weight: 900;
+    font-size: 26px;
+    color: #ffbd39;
+}
+
+.jerry {
+    color:black;
+}
+
+.button1 {
+    border-radius: 35px;
+    background-color: orange;
+    width: 200px;
+    height: 60px;
+}
+
+.service {
+    text-align: center;
+}
+
+.service>h1 {
+    font-size: 7vw;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.1);
+}
+
+.service>h2 {
+    font-size: 60px;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 1);
+}
+
+.service>p {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container>div {
+    background-color: rgba(255, 255, 255, 1);
+    width: 360px;
+    margin: 10px;
+    text-align: center;
+    height: 200px;
+    font-size: 30px;
+}
+
+.flex-container>div:hover {
+    background-color: #ffbd39;
+}
+
+.flex-container>div>i:hover {
+    background-color: #ffbd39;
+}
+
+.skill {
+    text-align: center;
+}
+
+.skill>h2 {
+    font-size: 7vw;
+    font-weight: 700;
+}
+
+.skill>h1 {
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1);
+}
+.skill>p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.d2 {
+    margin-left: 380px;
+}
+.d2 {
+    color: rgba(255, 255, 255, 1); 
+}
+.d1 {
+    color: rgba(255, 255, 255, 1); 
+}
+
+.range {
+    position: relative;
+    border: 1px solid white;
+    border-radius: 30px;
+    height: 10px;
+    width: 35%;
+}
+
+.innerrange {
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: #ffbd39;
+    height: 10px;
+    width: 80%;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project2 {
+    margin-left: 30px;
+}
+
+.blog {
+    width: 88%;
+    display: flex;
+    margin-left: 70px;
+}
+
+.ourblog {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ourblog1 {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.hireme {
+    position: absolute;
+    margin: -392px 0px 0px 356px;
+    z-index: 1;
+    font-size: 16px;
+    opacity: 0.5;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.hireme>p {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.hireme>button {
+    border: 1px solid #ffbd39;
+    border-radius: 20px;
+    width: 130px;
+    height: 50px;
+    background-color: #ffbd39;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact {
+    text-align: center;
+}
+.contact div i  {
+    color: rgba(255, 255, 255, 1);
+}
+.contact div h6 {
+    color: rgba(255, 255, 255, 1);
+}
+.contact div pre {
+    color: rgba(255, 255, 255, 1);
+}
+.contact div p  {
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -200px;
+    color: rgba(255, 255, 255, 0.1);
+}
+
+input {
+    height: 50px;
+    background-color: white;
+}
+
+textarea {
+    background-color: white;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+.links div {
+    color: rgba(255, 255, 255, 1);
+}
+footer {
+    color: rgba(255, 255, 255, 1); 
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    background-color: black; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 100px;
+ }
+ nav .logo {
+    font-size: 40px;
+    font-weight: 800;
+    color: #ffbd39;
+ }
+ nav ul {
+    display: flex;
+    list-style: none;
+    padding-right: 70px;
+ }
+ 
+ nav ul li {
+    margin: 0px 5px;
+    color: #ffbd39;
+    padding-right: 15px;
+ }
+ nav ul li a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffbd39;
+    text-decoration: none;
+    transition: all 0.3s;
+ }
+ 
+ nav ul li a:hover,
+ nav ul li a.active {
+    color: white;
+    border-bottom:3px solid #ffbd39;
+ }
+ nav .menu-btn i {
+   color: white; 
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+ }
+ #click {
+    display: none;
+ }
+@media screen and (max-width:940px) {
+    nav .menu-btn i{
+       display: block;
+       position: relative;
+        right: -500px;
+    }
+    #click:checked ~ .menu-btn i:before {
+       content: "\f00d";
+    }
+    nav ul {
+       position: fixed;
+       top: 80px;
+       left: -100%;
+       background-color: black;
+       height: 100vh; 
+       width: 100%; 
+       display: block;
+       text-align: center;
+       transition: all 0.3s ease;
+       z-index: 10;
+    }
+    #click:checked ~ ul {
+       left: 0%;
+    }
+    nav ul li {
+       margin: 40px 0;
+    }
+    nav ul li a {
+       font-size: 30px;
+       display: block;
+    }
+
+    nav ul li a:hover,
+ nav ul li a.active {
+    color:white;
+    border-bottom:none;
+ }
+ 
+    .hometext {
+          display: block;
+          box-sizing: border-box;
+    }
+    .hometext>h4 {
+       font-size: 50px;
+    }
+    .hometext>h2 {
+        font-size: 60px;
+    }
+    .hometext>h1 {
+        font-size: 70px;
+    }
+    .carousell {
+        position: relative;
+        left: 210px;
+        box-sizing: border-box;
+        width: 100%;
+        
+    }
+    .aboutme{
+        display: block;
+        font-size: 30px;
+    }
+    .resume {
+        font-size: 30px;
+    }
+    .resumemap {
+        font-size: 30px;
+    }
+    .resumemap > button {
+       margin-left: 200px;
+    }
+    .service p {
+        font-size: 30px;
+    }
+   
+    .d2 {
+        position: absolute;
+        margin-left: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .range {
+        position: relative;
+        border: 1px solid white;
+        border-radius: 30px;
+        height: 10px;
+        width: 35%;
+    }
+    
+    .innerrange {
+        position: absolute;
+        border: 1px solid black;
+        border-radius: 30px;
+        background-color: #ffbd39;
+        height: 10px;
+        width: 50%;
+    }
+    .skill h1 {
+        position:absolute;
+        top: -38px;
+
+    }
+    .skill p {
+        font-size: 30px;
+    }
+    .blog {
+        font-size: 30px;
+    }
+    .card-title{
+        font-size: 30px;
+    }
+    .project {
+        display: block;
+        width: 100px;
+    }
+    .aboutmee {
+        position: absolute;
+     line-height: 1.5px;right: 0;
+     left: 140px;
+    }
+    .hireme{
+        position: absolute;
+        margin: -392px 0px 0px 56px;
+        z-index: -1;
+        font-size: 6px;
+        opacity: 0.5; 
+        width: 50px;  
+    }
+    .hireme > button {
+        border: 1px solid #ffbd39;
+        border-radius: 20px;
+        width: 30px;
+        height: 10px;
+        background-color: #ffbd39;
+    }
+    .contact {
+        display: block;
+        
+    }
+    .message {
+        display: block;
+    }
+    .links {
+        display: block;
+    }
+
+    .values{
+        position: relative;
+        left: 50px;
+    }
+    .project {
+        display: block;
+        margin-left: 20px;
+    }
+    
+    .project2 {
+        margin-left: 20px;
+    }
+    .ourblog {
+        position: relative;
+        display: flex;
+        justify-content:center;
+        left: 20%;   
+    }
+    .ourblog1 {
+        font-size: 25px;
+    }
+    .img1 {
+        position: relative;
+        left: 20%;
+    }
+    .hireme {
+        display: none;
+    }
+    .contact div {
+        font-size: 30px;
+    }
+    .message {
+        position: relative;
+        left: 45%;
+    }
+    .message2 {
+        position: relative;
+        left: 15%;
+    }
+    .links {
+      position: relative;
+      left: 35%;
+    }
+    .links .abouttt {
+        font-size: 30px;
+    }
+    .link h4 {
+        font-size: 35px;
+    }
+    .link h6 {
+        font-size: 30px;
+    }
+    .services h4 {
+        font-size: 35px;
+    }
+    .services h6 {
+        font-size: 30px;
+    }
+    .question h4 {
+        font-size: 35px;
+    }
+    .question h6 {
+        font-size: 30px;
+    }
+    footer {
+        margin-left:100px;
+        font-size: 30px;
+    }
+}
